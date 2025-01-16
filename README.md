@@ -1,5 +1,9 @@
 # BeiDou Short Message Parser Module (北斗短报文解析)
 
+## Translate
+
+[Chinese](./README_zh-CN.md)
+
 ## Overview
 
 This module is designed for parsing communication receipt query results from BeiDou short messages. According to the BeiDou short message communication protocol, the message format includes sender ID, receiver ID, receipt count, multiple time fields (year-month-day, hour-minute-second), and other communication information. This module extracts this information from raw messages and organizes it into easy-to-use structures.
